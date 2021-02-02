@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+header{
+    background-color: #7287ae;
+    padding: 30px 0px;
+}
+.menu_logo_area{
+    overflow: hidden;
+}
+.logo_area{
+    width:40%;
+    float: left;
+}
+.logo_area a span{
+    font-size: 40px;
+    font-weight: 800;
+}
+.menu_area{
+    width:60%;
+    overflow: hidden;
+}
+.menu_area ul{
+    float: right;
+}
+.menu_area li{
+    float: left;
+    margin: 20px 0 0 15px;
+}
+.header_content{
+    color:white;
+    text-align: center;
+    margin-top: 143px;
+    margin-bottom: 143px;
+}
+.header_content h2{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.header_content p{
+    font-size: 25px;
+}
+.header_content h2:hover{
+    transform: scale(1.2);
+}
+.section_area-01{
+    background-color: #e3ecc2;
+    padding: 110px 0px;
+    overflow: hidden;
+}
+.section_area-01 h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #7287ae;
+}
+.item1{
+    background-color: white;
+    border-radius: 5px;
+    float: left;
+    width:29%;
+    overflow: hidden;
+    margin-left: 4%;
+    text-align: justify;
+}
+.item11{
+    margin-left: 0px;
+}
+.item1 img{
+    width: 100% ;
+}
+.content_item{
+    padding: 5%;
+}
+.content_item p{
+   margin: 10px 0px;
+}
+.item1:hover{
+    box-shadow: 0px 0px 15px grey;
+    }
+
+    .item1:hover span{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .batton{
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+  
+    .batton a{
+        background-color:#7287ae ;  
+        margin-top: 100px;
+        display:inline-block;
+        font-size: 20px;
+        padding: 10px 20px;
+        font-weight: bold;
+        border-radius: 20px;
+    }
+
+    /* footer area start */
+    .footer_area{
+        background-color:#7287ae ;
+        padding: 80px 0px;
+        overflow: hidden;
+    }
+    .fooder_box{
+        width:15%;
+        margin-left: 2%;
+        float: left;
+        color: white;
+        
+    }
+    .footer_box_1st{
+        width: 47%;
+    }
+    .fooder_box p{
+        text-align: justify;
+        padding: 20px 0px;
+    }
+
+
+    /* footer area end */
